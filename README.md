@@ -9,7 +9,6 @@ Echelon is a declarative NixOS system configuration repository that defines a co
 # System Identity
 
 The configuration defines a single NixOS system with the following characteristics:
-
 <br>
 <h4>Property      ---    Value <h4/>
 
