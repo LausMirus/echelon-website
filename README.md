@@ -10,6 +10,7 @@ Echelon is a declarative NixOS system configuration repository that defines a co
 
 The configuration defines a single NixOS system with the following characteristics:
 
+<hr --- />
 #### Property      ---    Value ####
 
 <hr --- />
@@ -17,4 +18,5 @@ System Name --- skynet
 <hr --- />
 Architecture --- x86_64-linux
 <hr --- />
-Configuration Entry Point --- ([ https://github.com/Hari-c137/echelon/blob/28e8b0ad/flake.nix#L25-L74 ])
+Configuration Entry Point --- flake.nix
+<hr --- />
