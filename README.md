@@ -10,7 +10,7 @@ Echelon is a declarative NixOS system configuration repository that defines a co
 
 The configuration defines a single NixOS system with the following characteristics:
 
-<h4> Property      ---    Value <h4/>
+<h4>Property      ---    Value <h4/>
 
 <hr --- />
 System Name --- skynet
@@ -30,3 +30,4 @@ Terminal Emulator --- Kitty
 Primary Editor --- helix
 <hr --- />
 Secondary Editor --- NeoVim
+<br>
