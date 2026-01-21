@@ -21,8 +21,6 @@ Configuration Entry Point --- flake.nix
 <hr --- />
 Window Manager --- niri
 <hr --- />
-Window Manager --- niri
-<hr --- />
 Shell --- fish
 <hr --- />
 Terminal Emulator --- Kitty
