@@ -13,3 +13,8 @@ The configuration defines a single NixOS system with the following characteristi
 #### Property      ---    Value ####
 
 <hr --- />
+System Name --- skynet
+<hr --- />
+Architecture --- x86_64-linux
+<hr --- />
+Configuration Entry Point --- ([ https://github.com/Hari-c137/echelon/blob/28e8b0ad/flake.nix#L25-L74 ])
