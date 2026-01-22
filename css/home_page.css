@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     left: 14rem;
+    z-index: 999;
 }
 
 .main_container {
@@ -51,10 +52,4 @@ body {
 .link3 {
     color: #fdfbd4;
 
-}
-.test{
-    width: 100%;
-    display: flex;
-    position: absolute;
-    padding-top: 400px;
 }
