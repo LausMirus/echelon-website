@@ -7,7 +7,7 @@ gsap.to("#page1_content #title",{
     scrollTrigger:{
         trigger:"#page1_content #title",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 25%",
         end:"top 5%",
         scrub:2,
@@ -20,7 +20,7 @@ gsap.to("#page1_content #sub_title",{
     scrollTrigger:{
         trigger:"#page1_content #sub_title",
         scroller:"body",
-        marker:true,
+        // marker:true,
         start:"top 25%",
         end:"top 20%",
         scrub:2,
