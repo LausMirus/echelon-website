@@ -40,7 +40,7 @@ if(screenWidth >= '1024'){
             scrollTrigger:{
                 trigger:"#page2_content #overview",
                 scrolller:"body",
-                markers:true,
+                // markers:true,
                 start:"top 57%",
                 end:"top 45%",
                 scrub:2,
