@@ -5,13 +5,18 @@
     list-style: none;
     text-decoration: none;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: #fdfbd4;
+body,
+html {
+    width: 100%;
+    height: 100%;
+    /* background-color: #fdfbd4; */
 }
 
-@media screen and (min-width : 1023px) {
+@media screen and (min-width : 1024px) {
     .main {
         margin: 1rem 0 1.5rem 0;
         position: fixed;
@@ -62,31 +67,72 @@ body {
     }
 
     .page1_content {
+        background-color: #fdfbd4;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         padding-top: 25%;
         align-items: center;
+
         /* padding: 20rem 20rem 20rem 20rem; */
         h1 {
             font-size: 40px;
             font-weight: 550;
             font-family: typewritter;
         }
+
         /* #title{
             padding-left: 2048px;
         } */
     }
 
+    .page1_container {
+        /* padding-top: 1000px; */
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        position: relative;
+        z-index: 99;
+    }
+
+    .page2_container {
+        position: absolute;
+        background-color: #fdfbd4;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 150px;
+    }
+
+    .page2_content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        z-index: 999;
+
+        #overview {
+            font-family: typewritter;
+            font-size: 30px;
+            font-weight: lighter;
+            opacity: 0;
+            scale: .5;
+        }
+    }
+
     footer {
         display: flex;
-        width: 100px;
-        background-color:#000000;
+        width: 100%;
+        height: 20%;
+        background-color: #000000;
         bottom: 0%;
-        position: relative;
-        padding:50px 100%;
-    }
-    .page2_container{
-        padding-top: 1000px;
+        position: fixed;
+        padding: 50px 100%;
     }
 }
 
@@ -147,6 +193,42 @@ body {
     .link3 {
         color: #fdfbd4;
         font-family: typewritter;
+    }
+
+
+    .page1_container {
+        /* padding-top: 12rem; */
+        padding: 80px;
+    }
+
+    .page1_content {
+        font-family: typewritter;
+
+        #title {
+            font-size: 16px;
+        }
+
+        #sub_title {
+            font-size: 16px;
+        }
+
+    }
+
+    .page2_container {
+        padding: 80px;
+
+        p {
+            font-family: typewritter;
+        }
+    }
+
+    footer {
+        display: flex;
+        width: 100px;
+        background-color: #000000;
+        bottom: 0%;
+        position: fixed;
+        padding: 50px 100% 50px 100%;
     }
 
 }
